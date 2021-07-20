@@ -1,3 +1,10 @@
+# Student-Profile
+Fetch data from API: https://api.hatchways.io/assessment/students, then display the data with search function. 
+Search can be done by tag and name. 
+Tags can be added to each student
+Scroll bar will be hidden when there is no scrolling
+Technology used: React, React Hooks(useContext) JavaScript, HTML, CSS, Axios, react-icons, etc.
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
