@@ -1,0 +1,122 @@
+.content-wrapper {
+	display: flex;
+	flex-direction: column;
+	width: 50vw;
+	height: 80vh;
+	border-radius: 10px;
+	z-index: 9;
+	background-color: white;
+	box-shadow: 2px 2px 2px 2px #888888;
+}
+
+.infoContainer {
+	width: 100%;
+	font-family: "Raleway", sans-serif;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.info {
+	display: flex;
+	width: 100%;
+	border-bottom: 1px solid lightgray;
+}
+
+.pic {
+	flex: 20%;
+	position: relative;
+	top: 30px;
+	left: 25px;
+}
+
+.pic img {
+	border: 1px solid lightgrey;
+	border-radius: 50% 50%;
+	width: 7em;
+	height: auto;
+}
+
+.details {
+	flex: 75%;
+}
+
+.input-wrapper {
+	display: flex;
+	justify-content: center;
+}
+.input-wrapper input {
+	width: 95%;
+	height: 50px;
+	border-top-style: hidden;
+	border-right-style: hidden;
+	border-left-style: hidden;
+	border-bottom-style: groove;
+	font-size: 24px;
+}
+
+.input-wrapper input:focus {
+	outline: none;
+}
+
+.grade-list {
+	display: flex;
+	flex-direction: column;
+}
+
+.grade-list pre {
+	font-family: "Raleway", sans-serif;
+	margin: 0;
+}
+
+.tag-container {
+	width: 100%;
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+}
+
+.tag-container p {
+	font-size: 20px;
+	margin: 5px;
+	background-color: lightgray;
+	color: black;
+	width: 60px;
+	height: 40px;
+	display: grid;
+	place-items: center;
+	border-radius: 5px;
+}
+
+.tagInput {
+	border-top-style: hidden;
+	border-right-style: hidden;
+	border-left-style: hidden;
+	border-bottom-style: groove;
+	height: 20px;
+	margin-top: 10px;
+	margin-bottom: 20px;
+	font-size: 20px;
+	padding: 5px;
+}
+
+.tagInput:focus {
+	outline: none;
+}
+
+.button-container {
+	flex: 7%;
+	position: relative;
+	top: 20px;
+}
+
+.expandableButton {
+	font-size: 40px;
+	color: grey;
+	border: none;
+	background-color: white;
+}
+
+.expandableButton:hover {
+	color: black;
+}
